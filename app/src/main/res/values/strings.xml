@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ZT Shopping</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="about_us">
+        ZT Shopping Store is an online Shopping App. ZT deals with all types of products like electronics,clothes,Grocery,Accessories, baby products and lot more.
+        To become an iconic trendsetting and ever-evolving high-street fashion brand for the young generation by contemporizing tradition with the latest trends and turning it into an urban lifestyle; ZT aims to highlight the prevalent issues in society and cater to them using the social element of the brand.
+    </string>
+    <string name="customer_orders">Customer Orders</string>
+</resources>

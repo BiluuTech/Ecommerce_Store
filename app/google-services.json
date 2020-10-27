@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "428455403121",
+    "firebase_url": "https://ztshopping-911be.firebaseio.com",
+    "project_id": "ztshopping-911be",
+    "storage_bucket": "ztshopping-911be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428455403121:android:08bcaab67dc8c4e445c5d0",
+        "android_client_info": {
+          "package_name": "com.biluutech.ztshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428455403121-k96gf86dk9p279pp6357ul57ejalualc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1KMZx0mo7RvyXh3e6N0sZlbnp8YB0Tcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428455403121-k96gf86dk9p279pp6357ul57ejalualc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

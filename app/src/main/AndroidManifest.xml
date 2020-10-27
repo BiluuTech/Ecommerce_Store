@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.biluutech.ztshopping">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Admin.AdminEditProductActivity"></activity>
+        <activity android:name=".Admin.AdminAllSubcategoryActivity"></activity>
+        <activity android:name=".Activities.ThanksCartActivity" android:parentActivityName=".HomeActivity"></activity>
+        <activity
+            android:name=".Admin.AdminAllProductsActivity"
+            android:parentActivityName=".Admin.AdminHomeActivity"></activity>
+        <activity android:name=".Admin.AdminUserProductsActivity" />
+        <activity android:name=".Activities.OrderPlacingActivity" android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Activities.CartActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Activities.EducationSubcategoryActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Activities.HomeLivingSubcategoryActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Activities.BabySubcategoryActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Activities.WomenSubcategoryActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Activities.ProductsActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Activities.MenSubcategoryActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Activities.ElectronicsSubcategoryActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity android:name=".Admin.AdminAddProductSelectSubcategoryActivity" android:parentActivityName=".Admin.AdminAddProductsMainActivity" />
+        <activity
+            android:name=".Admin.AdminAddNewSubcategoryMainActivity"
+            android:parentActivityName=".Admin.AdminHomeActivity" />
+        <activity
+            android:name=".Admin.AdminAddProductsMainActivity"
+            android:parentActivityName=".Admin.AdminHomeActivity" />
+        <activity android:name=".Admin.AdminAddNewSubcategoryActivity" />
+        <activity
+            android:name=".Activities.AboutusActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity android:name=".Admin.AdminLoginActivity" />
+        <activity android:name=".Admin.AdminAddNewProductActivity" />
+        <activity android:name=".Admin.AdminHomeActivity"></activity>
+        <activity android:name=".Activities.SubcategoryProductsActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Activities.LoginActivity"></activity>
+        <activity
+            android:name=".Activities.ProductDescriptionActivity"
+            android:parentActivityName=".Activities.SubcategoryProductsActivity" />
+        <activity android:name=".Activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.SignupActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ProductDescriptionActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/productDescriptionAppbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/productDescriptionToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Products" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/product_image_IV"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/productDescriptionAppbarLayout"
+        android:background="@drawable/desc_image_design"
+        android:scaleType="centerCrop"
+        android:src="@drawable/men" />
+
+    <TextView
+        android:id="@+id/currency_symbol_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_image_IV"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Rs"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/product_price_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_image_IV"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/currency_symbol_TV"
+        android:text="1500"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/product_name_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_price_TV"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="4dp"
+        android:text="Product Name"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/product_desc_heading_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_name_TV"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/black"
+        android:text="Description"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/product_desc_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_desc_heading_TV"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/add_cart_btn"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_design2"
+        android:text="Add to Cart"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
